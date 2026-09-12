@@ -5,7 +5,7 @@ cask "voltscope" do
   url "https://github.com/dimpurr/voltscope/releases/download/v#{version}/Voltscope-#{version}-universal2.dmg",
       verified: "github.com/dimpurr/voltscope/"
   name "Voltscope"
-  desc "Native macOS battery and energy-history monitor"
+  desc "Battery and energy-history monitor"
   homepage "https://voltscope.dimp.studio/"
 
   livecheck do
