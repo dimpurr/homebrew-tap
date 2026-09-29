@@ -39,3 +39,17 @@ rm -rf "$HOME/Library/Application Support/Voltscope"
 The cask follows the tagged releases in
 [`dimpurr/voltscope`](https://github.com/dimpurr/voltscope/releases). The
 website DMG and GitHub Release asset are the same release artifact.
+
+## chat-stasher
+
+This tap also ships
+[`chat-stasher`](https://github.com/dimpurr/chat-stasher), a versioned,
+append-only archive for every LLM conversation, across harnesses. The formula
+installs a precompiled macOS binary from the project's GitHub Releases.
+
+```bash
+brew install dimpurr/tap/chat-stasher
+```
+
+See the [`dimpurr/chat-stasher`](https://github.com/dimpurr/chat-stasher)
+repository for usage and the full platform story.
