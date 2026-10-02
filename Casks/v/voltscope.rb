@@ -7,7 +7,7 @@ cask "voltscope" do
   desc "Battery and energy-history monitor"
   homepage "https://voltscope.dimp.studio/"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Voltscope.app"
 end
