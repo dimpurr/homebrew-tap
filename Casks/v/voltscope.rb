@@ -4,8 +4,10 @@ cask "voltscope" do
 
   url "https://github.com/dimpurr/voltscope/releases/download/v#{version}/Voltscope-#{version}-universal2.dmg"
   name "Voltscope"
-  desc "Native macOS battery and energy-history monitor"
-  homepage "https://voltscope.dimp.studio"
+  desc "Battery and energy-history monitor"
+  homepage "https://voltscope.dimp.studio/"
+
+  depends_on macos: ">= :ventura"
 
   app "Voltscope.app"
 end
