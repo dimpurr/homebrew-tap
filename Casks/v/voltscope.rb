@@ -1,6 +1,6 @@
 cask "voltscope" do
-  version "0.10.0"
-  sha256 "8a0399a9a18a17e0a99e57d6ce5265bedb1323fd8a0377231d4d015b15804fc0"
+  version "0.10.1"
+  sha256 "d9a61deadeac78d0c737557b26cf604b7fccb80834aece9c6cc197f8889780f7"
 
   url "https://github.com/dimpurr/voltscope/releases/download/v#{version}/Voltscope-#{version}-universal2.dmg"
   name "Voltscope"
